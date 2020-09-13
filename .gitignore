@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 node_modules/
+=======
+/node_modules
+MernApp.code-workspace
+>>>>>>> 56b69805ee1d39fce24fc6457b7f2c7c4aa90ae1
