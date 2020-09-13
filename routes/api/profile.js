@@ -1,14 +1,4 @@
 const express = require('express');
-<<<<<<< HEAD
-const router = express.Router();
-
-// @route  GET api/profile
-// @desc   Test route
-// @access Public
-router.get('/',(req,res) => res.send('Profile route'));
-
-module.exports = router;
-=======
 const request = require('request');
 const config = require('config');
 const router = express.Router();
@@ -374,4 +364,3 @@ router.get('/github/:username', (req, res) => {
 });
 
 module.exports = router;
->>>>>>> 56b69805ee1d39fce24fc6457b7f2c7c4aa90ae1

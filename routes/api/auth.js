@@ -1,14 +1,5 @@
 const express = require('express');
 const router = express.Router();
-<<<<<<< HEAD
-
-// @route  GET api/auth
-// @desc   Test route
-// @access Public
-router.get('/',(req,res) => res.send('Auth route'));
-
-module.exports = router;
-=======
 const auth = require('../../middleware/auth');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
@@ -81,4 +72,3 @@ router.post(
   }
 );
 module.exports = router;
->>>>>>> 56b69805ee1d39fce24fc6457b7f2c7c4aa90ae1
