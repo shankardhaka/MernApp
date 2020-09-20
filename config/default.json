@@ -1,6 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://shankar123:shankar123@mernapp-gfcoq.mongodb.net/social_network?retryWrites=true&w=majority",
-  "jwtSecret": "mySecrettoken",
-  "githubClientId": "1e1f8b18795dc0a4c1c2",
-  "githubSecret": "771e7b63dadc56a7b81fd7d4d9eb07b288a257d7"
-}
